@@ -28,7 +28,7 @@ class knowledgeBase:
         tempRules = {}
         for line in fileKB:
             if line != "\n":
-                print("  ",line, end="")
+                #print("  ",line, end="")
                 lineSplit = line.split()
 
                 i = 0
@@ -47,8 +47,20 @@ class knowledgeBase:
 
         self.rules = tempRules
         self.atoms = []
-        print("\n  ",ruleCounter, "new rule(s) added\n")
-            
+
+        #print results
+        print("  ",ruleCounter, "new rule(s) added\n")
+        for h in self.rules.keys():
+            print("  ", h, "<-- ", end='')
+            for atom in self.rules[h]:
+                print(atom, end='')
+                if atom != self.rules[h][-1]:
+                    print(" & ", end='')
+                else:
+                    print("\n", end='')
+        print("\n", end='')
+
+        
     #tell, set variable(s) to true 
     def tell(self, aurgs):
 
