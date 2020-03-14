@@ -1,0 +1,28 @@
+Beijing <-- Asia & cold_winter & hot_summer & well_off & like_hiking 
+Hong_kong <-- Asia & cold_winter & hot_summer & well_off & like_skiing 
+San_Francisco <-- North_America & mild_winter & hot_summer & well_off & like_beach
+London <-- Europe & mind_winter & mild_summer 
+Berlin <-- Europe & cold_winter & mild_summer 
+New_York <-- North_America & cold_winter & hot_summer & well_off & like_hiking 
+Toronto <-- North_America & cold_winter & mild_summer 
+Seattle <-- North_America & cold_winter & mild_summer 
+Singapore <-- Asia & mind_winter & hot_summer & well_off & like_hiking 
+Montreal <-- North_America & cold_winter & mild_summer  
+Boston <-- North_America & cold_winter & hot_summer 
+Amsterdam <-- Europe & mind_winter & mild_summer 
+Tokyo <-- Europe & mind_winter & hot_summer & well_off & like_skiing 
+
+well_off <-- good_career & no_loans
+good_career <-- tech_job & hard_worker & smart
+no_loans <-- no_student_loan & no_car_loan
+no_student_loan <-- sfu_open_scholarship
+no_car_loan <-- part_time_job
+part_time_job <-- hard_worker & smart
+tech_job <-- CS_grad & good_communication
+sfu_open_scholarship <-- high_gpa 
+high_gpa <-- hard_worker & smart
+
+like_hiking <-- fit & like_nature 
+like_beach <--  like_nature & can_swim & like_sun
+like_skiing <-- like_adrenaline & like_nature & like_snow
+
